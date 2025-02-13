@@ -2,10 +2,10 @@ type OscarProps = {
     children: React.ReactNode;
 }
 
-export const Oscar = () => {
+export const Oscar = (props: OscarProps) => {
     return(
         <div>
-            Oscar goes to Leonadro Dicaprio!
+            {props.children}
         </div>
     )
 }
