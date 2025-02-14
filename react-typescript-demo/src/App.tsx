@@ -7,6 +7,7 @@ import { Input } from './components/Input';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
 import { LoggedIn } from './components/state/LoggedIn';
+import { User } from './components/state/User';
 import { Status } from './components/Status';
 import { nameList } from './components/store/PersonListSlicer';
 import { Oscar } from './Oscar';
@@ -43,6 +44,8 @@ function App() {
       <Container styles={{ border: '1px solid black', padding: '1rem' }} />
 
       <LoggedIn />
+
+      <User />
     </div>
   );
 }
