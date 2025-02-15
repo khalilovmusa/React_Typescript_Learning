@@ -6,6 +6,7 @@ import { Heading } from './components/Heading';
 import { Input } from './components/Input';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
+import { Counter } from './components/state/Counter';
 import { LoggedIn } from './components/state/LoggedIn';
 import { User } from './components/state/User';
 import { Status } from './components/Status';
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name="Musa" messageCount={10} isLoggedIn={true} />
+      {/* <Greet name="Musa" messageCount={10} isLoggedIn={true} />
       <Person name={personName} />
       <PersonList names={nameList} />
 
@@ -45,7 +46,9 @@ function App() {
 
       <LoggedIn />
 
-      <User />
+      <User /> */}
+
+      <Counter />
     </div>
   );
 }
